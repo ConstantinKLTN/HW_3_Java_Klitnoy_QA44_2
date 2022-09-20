@@ -1,10 +1,10 @@
 public class BmiService {
 
-    public double index(double h, double m) {
+    public double index(double height, double weight) {
 
         double result;
-        double h2 = h * h;
-        result = m / h2;
+        double h2 = height * height;
+        result = weight / h2;
         return result;
 
     }
